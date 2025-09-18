@@ -16,6 +16,7 @@ def main():
     print(f"Prosessor: {platform.processor()}")
     print(f"Uptime: {get_uptime()}")
     print(f"Nåværende tid: {time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print("*")
  
 if __name__ == "__main__":
     main()
